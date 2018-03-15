@@ -113,7 +113,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|------+------+------+------+------+------|+
  * | Shift| Bksp | Del  |      |      |      |      |      |      |      |      |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Play | Next | Vol- | Vol+ |      |             |      |      |      |  [   |  ]   |
+ * | Play | Next | Vol- | Vol+ |      |     GUI     |      |      |      |  [   |  ]   |
  * `-----------------------------------------------------------------------------------'
  */
 [_LOWER] = {
@@ -121,7 +121,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,  KC_HOME, KC_UP,   KC_END,  KC_PGUP, _______, _______, _______, _______, _______, _______, KC_DEL},
   {KC_LCTL, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, _______, _______, _______, _______, KC_BSLASH},
   {KC_LSFT, KC_BSPC, KC_DEL,  _______, _______, _______, _______, _______, _______, _______, _______, SFTENT},
-  {KC_MPLY, KC_MNXT, KC_VOLD, KC_VOLU, _______, _______, _______, _______, _______, _______, KC_LBRC, KC_RBRC}
+  {KC_MPLY, KC_MNXT, KC_VOLD, KC_VOLU, _______, KC_LGUI, KC_LGUI, _______, _______, _______, KC_LBRC, KC_RBRC}
 },
 
 /* Raise
