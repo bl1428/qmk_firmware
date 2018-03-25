@@ -121,7 +121,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,  KC_HOME, KC_UP,   KC_END,  KC_PGUP, _______, _______, _______, _______, _______, _______, KC_DEL},
   {KC_LCTL, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN, _______, _______, _______, _______, _______, _______, KC_BSLASH},
   {KC_LSFT, KC_BSPC, KC_DEL,  _______, _______, _______, KC_MUTE, KC_VOLD, KC_VOLU, KC_MNXT, KC_MPLY, SFTENT},
-  {_______, _______, _______, _______, _______, KC_LGUI, KC_LGUI, _______, _______, _______, KC_LBRC, KC_RBRC}
+  {_______, KC_LGUI, _______, _______, _______, _______, _______, _______, _______, _______, KC_LBRC, KC_RBRC}
 },
 
 /* Raise
